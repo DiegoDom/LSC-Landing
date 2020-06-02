@@ -1118,7 +1118,7 @@ h6 {
     letter-spacing: .1em;
     font-size: 12px;
     font-weight: 700;
-    color: #ff5733;
+    color: #fc9c21;
     margin-bottom: 10px;
 }
 
@@ -1262,7 +1262,7 @@ h6 {
 }
 
 .accordion .accordion-item h2 a[aria-expanded="true"] {
-    color: #ff5733;
+    color: #fc9c21;
 }
 
 .accordion .accordion-item h2 a[aria-expanded="true"]:before {
@@ -1884,4 +1884,118 @@ h6 {
 .textHome {
     font-size: 35px !important;
     font-weight: bold;
+}
+
+.subTextHome {
+    font-size: 25px !important;
+}
+
+.textComm {
+    font-size: 17px;
+}
+
+.textComm2 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.linkCV {
+    color: #4285F4 !important;
+}
+
+.cautionBand {
+    height: 75px !important;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* MEDIAQUERIES */
+
+
+/* .Dispositivo xl */
+
+@media screen and (max-width: 1199px) {
+    .mapUbica {
+        width: 450px !important;
+        height: 350px !important;
+    }
+    .container {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
+}
+
+
+/* .Dispositivo lg */
+
+@media screen and (max-width: 991px) {
+    .mapUbica {
+        width: 450px !important;
+        height: 350px !important;
+    }
+    .container {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
+    .site-section {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
+}
+
+
+/* .Dispositivo md */
+
+@media screen and (max-width: 767px) {
+    .mapUbica {
+        width: 450px !important;
+        height: 350px !important;
+    }
+    .container {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
+    .site-section {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
+}
+
+
+/* .Dispositivo sm */
+
+@media screen and (max-width: 575px) {
+    .mapUbica {
+        width: 450px !important;
+        height: auto !important;
+    }
+    .container {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
+    .site-section {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .mapUbica {
+        width: 250px !important;
+        height: auto !important;
+    }
+    .container {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
+    .site-section {
+        margin: 0px, 0px, 0px, 0px !important;
+    }
 }
