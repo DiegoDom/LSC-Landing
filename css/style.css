@@ -1923,6 +1923,22 @@ h6 {
     position: absolute;
 }
 
+.img-loader {
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
 
 /* MEDIAQUERIES */
 
